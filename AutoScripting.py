@@ -16,7 +16,6 @@ from maya import cmds as cmds
 from maya import mel as mel 
 
 UI_FILE_PATH = str(Path(__file__).resolve().parent / "form.ui")
-UI_FILE_PATH = "/Users/shiinaayame/Documents/maya tool/AutoScriptingRecorder/AutoScriptingRecorder/form.ui"
 
 class CustomMayaUI(MayaQWidgetBaseMixin, QWidget):
     def __init__(self, parent=None):
